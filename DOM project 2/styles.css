@@ -1,0 +1,29 @@
+/* Center the container and provide top margin */
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Style the color box with a fixed size */
+#color-box {
+    width: 200px;
+    height: 200px;
+    background-color: #ccc; /* Default color */
+    margin: 20px auto;
+}
+
+/* Style the button to make it visually appealing */
+#change-color-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Change the button color on hover */
+#change-color-btn:hover {
+    background-color: #45a049;
+}
