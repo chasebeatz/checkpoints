@@ -1,0 +1,40 @@
+.app {
+  padding: 20px;
+  text-align: center;
+}
+
+.movie-card {
+  display: inline-block;
+  width: 200px;
+  margin: 10px;
+  text-align: left;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.movie-poster {
+  width: 100%;
+  height: auto;
+}
+
+.add-movie input, .filter input {
+  margin: 5px;
+  padding: 5px;
+}
+
+.filter {
+  margin: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
